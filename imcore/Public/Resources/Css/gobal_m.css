@@ -1,0 +1,87 @@
+               
+
+#banner{width:100%;}
+#menu {background: url(../Images/Front/newImages/gh_04.jpg) repeat-x left bottom; background-color: #f8f8f8; height: 46px; border-top: 1px solid #d7d4cf; border-bottom: 1px solid #C4C6C3; min-width: 1000px; width: auto !important; margin: 0px auto; position: relative;z-index: 10;}
+#menu .nav { width: 960px; margin: 0 auto; height: 46px; position: relative; z-index: 100;}
+#menu .nav ul {float: left; font-size:15px;}
+#menu li {float: left; display: block; overflow: visible; vertical-align: top;}
+
+.nav a{color:#333; cursor:pointer;}
+.nav a.trad, .nav a.solutions_products, .nav a.support, .nav a.about_huawei, .nav a.join_huawei,.nav a.shop_huawei {display: block; line-height: 47px; text-decoration:none; color:#666; font-size:14px; font-weight:bold; text-align:center; position:relative; z-index:1007;}
+.nav a.trad span, .nav a.solutions_products span, .nav a.support span, .nav a.about_huawei span, .nav a.join_huawei span ,.nav a.shop_huawei span{display: block; height:47px; margin-left: 2px; width:auto; text-shadow:#fff 1px 1px 0px; padding:0 32px 0 22px;}
+.nav li a.hover{color:#f40; background-image:url(../Images/Front/newImages/gh_03.png); background-repeat: no-repeat; background-position: 0 -85px; background-color:transparent; margin-top: 0px; line-height: 47px;}
+.nav li a.hover span{background-image:url(../Images/Front/newImages/gh_03.png); background-repeat:no-repeat; background-position:100% -18px; background-color:transparent; color:#f40;}
+.nav li a.active span{color: #f40;}
+
+.nav_li_hover{color:#f40; background-image:url(../Images/Front/newImages/gh_03.png); background-repeat: no-repeat; background-position: 0 -85px; background-color:transparent; margin-top: 0px; line-height: 47px;}
+.nav_li_hover span{background-image:url(../Images/Front/newImages/gh_03.png); background-repeat:no-repeat; background-position:100% -18px; background-color:transparent; color:#f40;}
+
+.nav_li_hover_index span{color:#f40;}
+/*take off background*/
+.nav a.shop_huawei:hover,.nav li a.shop_huawei:hover span{background:none;}
+
+.menuitempanel {top: 47px; position: absolute; z-index: 1000; display: none; left: 0px; -webkit-box-shadow: 2px 2px 6px rgba(0,0,0,.3); box-shadow: 2px 2px 6px rgba(0,0,0,.3); border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;}
+.menuright{right:0px; left:auto;}
+.menucontentdiv {background: #fff url(../Images/Front/newImages/gh_02.png) 0 0 repeat-x; border-left: 1px solid #CCC; margin-right: 7px; padding: 20px 20px 0 30px; width:auto; height:100%; border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+.menucontentdiv .clearfix{ padding-bottom:10px; position:relative;}
+.menufillet_s, .menufillet_w, .menufillet_e, .menufillet_se, .menufillet_sw{position: absolute;zoom: 1;display: block;overflow: hidden;
+background-attachment:scroll; background-color:transparent; z-index: 999; width: 10px;height: 10px;}
+.menufillet_e { background-image: url(../Images/Front/newImages/gh_01.png);background-repeat: repeat-y; _background:transparent; height: 100%; right: 0px; top: 0; width: 7px;}
+.verticalLine{ background-color:#FFFFFF; border-left:#cfcfcf solid 1px; width:1px; height:100%; left:200px; top:0px; float:left; min-height:200px; height:200px; margin:0 45px;}
+#menu .menuitempanel li {float: none; top: 0; line-height:24px;}
+#menu .menuitempanel li.left {float: left;}
+.menuitempanel h2 {color: #bb0000; font-size: 16px;font-weight: bold; padding-bottom:10px;}
+.menuitempanel h2 a {color: #f40;}
+.menuitempanel ul li a{ color:#666;}
+.menuitempanel ul.taxonomy { margin-left: -5px;}
+#menu .menuitempanel ul.taxonomy li {font-size: 14px; font-weight: bold; text-indent: 10px; line-height: 32px;}
+.menuitempanel ul.taxonomy li a{ color:#333;}
+.menuitempanel ul.m_box li.title {font-weight: bold; margin-top: 5px;}
+.menuitempanel ul.m_box li.summary { width:259px; font-weight: normal;}
+#menu .menuitempanel ul.m_box li.summary ul {padding: 0 0; float:none;}
+.menuitempanel .solutions_products ul.m_box li.summary{ padding:0 0 0 2px;}
+.menuitempanel .solutions_products ul.m_box li.left{ margin-right:15px;}
+.menuitempanel ul.list {margin-right: 45px;}
+.menuitempanel ul > li.left > ul {margin-right: 45px;}
+.menuitempanel ul.list h3 {padding: 0px 0px 0px 0px;}
+.menuitempanel ul.list h3 a {color: #333333;font-size: 14px;font-weight: bold;}
+.menuitempanel .solutions_products ul.m_box li.last, .menuitempanel ul.last,.menuitempanel ul li ul.last { margin:0px;}
+
+.shadow_b_layout {background-image: url(../Images/Front/newImages/gh_03.png); background-attachment: scroll; background-repeat: no-repeat; background-position: 0 -67px; position: absolute; width: 100%; left: 0px;}
+.shadow_b_layout div {background: url(../Images/Front/newImages/gh_03.png) 100% -1px no-repeat;background-attachment: scroll;display: block;height: 16px;margin-left: 15px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.shadow_b_layout, .menufillet_e{ display:none;}
+.menucontentdiv{ margin-right:0px;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;}
+.menucontentdiv .clearfix{ padding-bottom:15px;}
+}
+@-moz-document url-prefix(){
+.shadow_b_layout, .menufillet_e{ display:none;}
+.menucontentdiv{ margin-right:0px;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;}
+.menucontentdiv .clearfix{ padding-bottom:15px;}
+}
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0){
+.shadow_b_layout, .menufillet_e{ display:none;}
+.menucontentdiv{ margin-right:0px;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;}
+.menucontentdiv .clearfix{ padding-bottom:15px;}
+}
+:root .shadow_b_layout, :root .menufillet_e {display:none\9;}/*IE9&#19987;&#23646;*/
+:root .menucontentdiv{ margin-right:0px\9;border-right: 1px solid #CCC\9;border-bottom: 1px solid #CCC\9;}
+:root .menucontentdiv .clearfix{ padding-bottom:15px\9;}
+
+
+/*add to press center start*/
+.nav a.media_center{display: block; line-height: 47px; text-decoration:none; color:#666; font-size:14px; font-weight:bold; text-align:center; position:relative; z-index:1007;}
+.nav a.media_center span{display: block; height:47px; margin-left: 2px; width:auto; text-shadow:#fff 1px 1px 0px; padding:0 32px 0 22px;}
+.nav li .tool {padding-left: 13px; margin-top:22px; background:url(../Images/Front/newImages/aa.gif) no-repeat 0px 7px;position:relative;left:-13px;}
+.nav li .tool a{ color:#069;}
+/*add to press center end*/
+
+
+.menucontentdiv .pressCenter_r{padding-right:70px;padding-left:40px;};
+
+
+
+#menu { top:36px;}
+#menu,.bgsTabTop_cn { width:100% !important;}
+#slide-index .control { z-index:2;}
+#menu{width: 100% !important; top: 0; left:0; position:relative;}

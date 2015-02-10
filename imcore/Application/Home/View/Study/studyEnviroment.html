@@ -1,0 +1,82 @@
+<{//学员天地}>
+<extend name='Common/Base' />
+
+<block name='Main'>
+<div class="main">
+	<div class="wrap clearfix">
+		<div class="contentWrap left">
+			<div class="contactUsBox">
+				<p class="contentTitle font12 pl10">
+					<a href="index.html" class="bold">首页</a> &gt; IT教育培训 &gt; 学员天地 &gt;
+					学习环境
+				</p>
+				<div class="environmentDetailBox clearfix">
+					<div id="showphoto" class="showphoto" style="display: none;">
+						<div id="photo" style="height: 320px;">
+							<img alt="" title="点击图片关闭" style="height: 320px;" />
+						</div>
+						<div id="info"></div>
+					</div>
+					<ul>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB1.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB2.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB3.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB4.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB5.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB6.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB7.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB8.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB9.jpg"
+								width="190" height="124" border="0" /></a></li>
+						<li><a href="#"><img alt="" title="点击图片关闭"
+								src="__PUBLIC__/Resources/Images/Front/studyEnvironment/companyEnvironmentB10.jpg"
+								width="190" height="124" border="0" /></a></li>
+					</ul>
+
+				</div>
+				<script type="text/javascript">
+                        $(document).ready(function () {
+                            $("div li:has(img)").click(function () {
+                                $("#showphoto").fadeIn(300);
+                                if (($.browser.msie && $.browser.version == "7.0") || ($.browser.msie && $.browser.version == "8.0")) {
+                                    document.getElementById("showphoto").style.left = $(window).width() / 2 - 710;
+                                    document.getElementById("showphoto").style.top = $(window).height() / 2 - 260;
+                                }
+                                else {
+                                    document.getElementById("showphoto").style.left = $(window).width() / 2 - 200;
+                                    document.getElementById("showphoto").style.top = $(window).height() / 2 - 100;
+                                }
+                                document.getElementById("info").innerHTML = $(this).find("img").attr("title");
+                                var photo_url = $(this).find("img").attr("src");
+                                $("#photo").find("img").attr("src", photo_url);
+                                $("#photo").click(function () {
+                                    $("#showphoto").fadeOut(300);
+                                });
+                            });
+                        });
+                    </script>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+</block>

@@ -1,0 +1,252 @@
+﻿/* =====================================================================
+    CSS STYLES FOR Public
+   =====================================================================
+*/
+/* = Base/Reset Styles
+----------------------------------------------------------------------------------------------------*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, lengend, button, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:#ffffff; 
+}
+body,button, input, select, textarea {
+	font: 12px/1.5 tahoma, \5b8b\4f53, arial;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+p,ul,ol,li{
+    list-style:none;
+    text-align: left;
+}
+button, input, select, textarea {
+	font-size: 100%;
+}
+fieldset, img {
+	border: 0;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+}
+textarea {
+	resize: none;
+}
+input, img {
+    vertical-align: middle;
+}
+/** == ClearFix == **/
+.clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+	clear:both;
+}
+.clearfix {
+	zoom: 1;
+}
+.clear{
+    clear:both;    
+}
+/** ==ClearFixEnd ==**/
+/* === Base Css ================================================
+================================================================*/
+.left{
+	float: left;
+	_display:inline;
+}
+.right{
+	float: right;
+	_display:inline;
+}
+a:hover{
+	text-decoration: underline;
+}
+a,input,textarea {
+    outline:none; 
+}
+
+.mt10{
+    margin-top:10px;   
+}
+.mt8{
+    margin-top:8px;   
+}
+.mt4{
+    margin-top:4px;
+}
+.ml40{
+     margin-left:40px;   
+}
+.ml80{
+     margin-left:80px;   
+}
+.ml20{
+     margin-left:20px;   
+}
+.ml18{
+     margin-left:18px;   
+}
+.ml10{
+     margin-left:10px;   
+}
+.mr10{
+     margin-right:10px;   
+}
+.ml6{
+    margin-left:6px;    
+}
+.mr6{
+    margin-right:6px;    
+}
+.mb15{
+	  margin-bottom:15px;
+}
+.pt10{
+    padding-top:10px;
+}
+.pb10{
+    padding-bottom:10px;    
+}
+.pl10{
+    padding-left:10px;   
+}
+.p10{
+    padding:10px;    
+}
+.pl20{
+    padding-left:20px;   
+}
+.pr10{
+    padding-right:10px;   
+}
+.pl2{
+    padding-left:2px;    
+}
+.pr2{
+    padding-right:2px;    
+}
+.pl1em{
+    padding-left:1em;    
+}
+.pb20{
+    padding-bottom:20px;    
+}
+.pt20{
+    padding-top:20px;    
+}
+.relative{
+    position:relative;    
+}
+.absolute{
+    position:absolute;    
+}
+
+.font24{
+    font-size:24px;    
+}
+
+.font18{
+    font-size:18px;    
+}
+
+.font14{
+    font-size:14px;    
+}
+.font12{
+    font-size:12px;    
+}
+.bold{
+    font-weight:bold;    
+}
+.whiteText,.whiteText a{
+    color:#ffffff;    
+}
+.blueText,.blueText a{
+    color:#2C53A5
+}
+.vAlignTop{
+    vertical-align:top;    
+}
+.alignRight{
+    text-align:right;    
+}
+.alignCenter{
+    text-align:center;    
+} 
+.blackText,.blackText a{
+    color:#000000;
+ }
+.greyishWhite,.greyishWhite a{
+    color:#cccccc;     
+}
+.hoary,.hoary a{
+    color:#d2d2d2;    
+}
+.displayBlock{
+    display:block;     
+}
+.displayNone{
+    display:none;     
+}
+.lineHeight20{
+    line-height:20px;
+}
+.required{
+    color:#df7a34;
+}
+.tahoma{
+    font-family:Tahoma;    
+}
+.coveringTag{
+    background:#ffffff;
+    display:block;
+    height:1px;
+    line-height:1px;
+    font-size:0;
+    overflow:hidden;
+    margin-top:-1px;    
+}
+.noRound{
+    overflow:hidden;
+    *zoom:1;
+    *display:inline;
+}
+
+.inlineBlockBox{
+    letter-spacing:-0.31em;
+    *letter-spacing:normal;
+    word-spacing:-0.43em;
+}
+.inlineBlockBox li{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    letter-spacing:normal;
+    word-spacing:normal;
+}
+.vMiddleWrap,
+.vMiddleAssist{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    *display:inline;
+    *zoom:1;
+	overflow:hidden;
+}
+.vMiddleAssist{
+    width:0;
+}

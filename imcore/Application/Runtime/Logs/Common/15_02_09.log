@@ -1,0 +1,674 @@
+[ 2015-02-09T10:09:23+08:00 ] 127.0.0.1 /admin.php/Main/Index/
+ERR: 无法加载模块:Main
+
+[ 2015-02-09T10:30:44+08:00 ] 127.0.0.1 /admin.php/Main/Index
+ERR: 无法加载模块:Main
+
+[ 2015-02-09T10:54:54+08:00 ] 127.0.0.1 /Public/Js/ExtJS/resources/css/ext-all.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:54:54+08:00 ] 127.0.0.1 /Public/Js/ExtJS/bootstrap.js
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:54:54+08:00 ] 127.0.0.1 /Public/Css/Icon.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:54:54+08:00 ] 127.0.0.1 /Public/Css/Style.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:54:54+08:00 ] 127.0.0.1 /Public/Js/ExtJS/ext-lang-zh_CN.js
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:54:54+08:00 ] 127.0.0.1 /Public/Js/ExtJS/bootstrap.js
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:54:54+08:00 ] 127.0.0.1 /Public/Js/ExtJS/ext-lang-zh_CN.js
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:01+08:00 ] 127.0.0.1 /Public/Js/ExtJS/resources/css/ext-all.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:01+08:00 ] 127.0.0.1 /Public/Js/ExtJS/ext-lang-zh_CN.js
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:01+08:00 ] 127.0.0.1 /Public/Css/Style.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:01+08:00 ] 127.0.0.1 /Public/Js/ExtJS/bootstrap.js
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:01+08:00 ] 127.0.0.1 /Public/Css/Icon.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:01+08:00 ] 127.0.0.1 /Public/Js/ExtJS/bootstrap.js
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:01+08:00 ] 127.0.0.1 /Public/Js/ExtJS/ext-lang-zh_CN.js
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:35+08:00 ] 127.0.0.1 /Public/Js/ExtJS/resources/css/ext-all.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:35+08:00 ] 127.0.0.1 /Public/Css/Style.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T10:55:35+08:00 ] 127.0.0.1 /Public/Css/Icon.css
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T11:10:51+08:00 ] 127.0.0.1 /index.php/Index/Index
+ERR: 无法加载模块:Index
+
+[ 2015-02-09T14:00:22+08:00 ] 127.0.0.1 /Public/Resources/Images/freePhoneNumber.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:00:22+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:00:22+08:00 ] 127.0.0.1 /Public/Resources/Images/controlNav.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:00:22+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:00:22+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:00:22+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:00:22+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:00:22+08:00 ] 127.0.0.1 /Public/Resources/Images/close_btn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/Images/freePhoneNumber.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/Images/controlNav.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/newImages/gh_04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:20+08:00 ] 127.0.0.1 /Public/Resources/Images/close_btn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:48+08:00 ] 127.0.0.1 /Public/Resources/Images/controlNav.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:48+08:00 ] 127.0.0.1 /Public/Resources/Images/freePhoneNumber.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:48+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:48+08:00 ] 127.0.0.1 /Public/Resources/newImages/gh_04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:48+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:48+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:48+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:48+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:07:49+08:00 ] 127.0.0.1 /Public/Resources/Images/close_btn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/Images/controlNav.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/newImages/gh_04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/Images/freePhoneNumber.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+lic
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/Images/returntop.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:13:02+08:00 ] 127.0.0.1 /Public/Resources/Images/close_btn.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:23:26+08:00 ] 127.0.0.1 /Public/Images/Front/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:23:26+08:00 ] 127.0.0.1 /Public/Images/Front/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:23:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:23:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:23:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:23:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:23:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:23:28+08:00 ] 127.0.0.1 /Public/Resources/Images/Front/gh_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:24+08:00 ] 127.0.0.1 /Public/Images/Front/coreduWeibo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:24+08:00 ] 127.0.0.1 /Public/Images/Front/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:24+08:00 ] 127.0.0.1 /Public/Images/Front/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:24+08:00 ] 127.0.0.1 /Public/Images/Front/coreduWeibo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:25+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:25+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:25+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:25+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:25+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:32+08:00 ] 127.0.0.1 /Public/Images/Front/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:33+08:00 ] 127.0.0.1 /Public/Images/Front/coreduWeibo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:33+08:00 ] 127.0.0.1 /Public/Images/Front/coreduWeibo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:53+08:00 ] 127.0.0.1 /Public/Images/Front/coreduWeibo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:53+08:00 ] 127.0.0.1 /Public/Images/Front/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:55+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:55+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:55+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:55+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:24:55+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:29:36+08:00 ] 127.0.0.1 /Public/Resources/Js/bottom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:29:36+08:00 ] 127.0.0.1 /Public/Resources/Js/bottom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:29:36+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:29:36+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:29:36+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:29:36+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:29:36+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:30:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:30:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:30:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:30:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:30:26+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:34:23+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:34:23+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:34:23+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:34:23+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:34:23+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T14:34:42+08:00 ] 127.0.0.1 /Public/Resources/Images/Front/gh_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T15:00:31+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_down.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T15:00:31+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T15:00:31+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_gh_top.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T15:00:31+08:00 ] 127.0.0.1 /Public/Resources/newImages/main_t_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T15:00:31+08:00 ] 127.0.0.1 /Public/Resources/newImages/QA1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T15:16:40+08:00 ] 127.0.0.1 /Public/Resources/Images/Front/gh_03.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-09T16:47:07+08:00 ] 127.0.0.1 /Public/Resources/Images/teacher1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+

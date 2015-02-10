@@ -1,0 +1,384 @@
+[ 2015-02-10T09:53:44+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-02-10T09:53:44+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-02-10T09:53:44+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-02-10T10:16:22+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:16:22+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:16:22+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:16:22+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:27:18+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:27:18+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:27:18+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:27:18+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:28:41+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:28:41+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:28:41+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:28:41+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:38:14+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:38:14+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:38:14+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:38:14+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:44:13+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/studentWork/Diapers02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:44:13+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/studentWork/Diapers01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:44:13+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/studentWork/Diapers01.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:44:13+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/studentWork/Diapers02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:44:28+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/studentWork/Diapers02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:45:27+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:45:27+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:45:28+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/huangyr.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:45:28+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:45:33+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/student/kongwj.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:49:45+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:49:45+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:55:58+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:56:03+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:56:04+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:57:03+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:57:04+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:57:07+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:57:08+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:57:28+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T10:57:28+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T11:00:11+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T11:00:12+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T11:00:27+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T11:00:27+08:00 ] 127.0.0.1 /Public/Resources//Public/Resources/Images/Front/Front/talentLogo/cooperationLogo9.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:17:44+08:00 ] 127.0.0.1 /WeiXinAuction/admin.php/Admin/Authorize/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:WeiXinAuction
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/images/admin_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/images/login_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/images/login_button.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/images/login_name_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/validform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:19:00+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/Validform_Datatype.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:20:04+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:20:04+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:20:04+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/validform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:20:04+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:20:04+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/Validform_Datatype.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/validform.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-02-10T14:22:17+08:00 ] 127.0.0.1 /Public/Resources/Js/Common/form/Validform_Datatype.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
