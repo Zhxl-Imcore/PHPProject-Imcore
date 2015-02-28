@@ -94,27 +94,15 @@ var topMenu_newStyle = "" +
 	"					<div class=\"menuitempanel menuright\" style=\"display: none; \"> "+
 	"					<div class=\"menucontentdiv\"> "+
 	"						<div class=\"menufillet_e\"></div> "+
-	"							<div class=\"trad clearfix\"> "+
-	"								<ul class=\"\"> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=12\" target=\"_blank\">从学生到职业人的蜕变——来自果核学员的心声</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=11\" target=\"_blank\">建发悦享中心：10.31耀世开启 移动互联网战略思维分享会</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=10\" target=\"_blank\">果核科技GP01班开班仪式隆重举行</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=9\" target=\"_blank\">果核科技为闽江学院软件学院提供“移动大兵”训...</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=8\" target=\"_blank\">果核科技为厦门理工学院提供“移动大兵”训练营...</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=7\" target=\"_blank\">泉州师范学院与果核科技合作培养安卓软件开发...</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=6\" target=\"_blank\">果核再添猛将，工程中心如虎添翼</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=1\" target=\"_blank\">果核工程中心正式成立</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=2\" target=\"_blank\">果核又将为”移动大兵“提供训练营！</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=3\" target=\"_blank\">果核君加入“BizSpark”啦，正版当道</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=4\" target=\"_blank\">厦门第10届女生节“高富帅”开发软件讨好学妹</a></li> "+
-	"										<li>&nbsp;<a href=\"companyContentNews.html?id=5\" target=\"_blank\">“从果核毕业就能就业” “精英仓库”大管家厦门造</a></li>			 "+															
-	"								</ul> "+
+	"							<div class=\"trad clearfix\"> "+ 
+	
+								TOP_NAV_LINKS_NEWS +
 			                  		
 	"							<div class=\"verticalLine\" style=\"height: 235px; \"></div> "+
 						
 	"							<ul class=\"m_box\"> "+
-	"		              <li><a href=\"#\" target=\"_blank\"><img height=\"140\" width=\"259\" src=\"" + PUBLIC + "/Resources/Images/Front/newImages/gh_memu_1.jpg\"></a></li> "+
-	"						    	<li class=\"title\"><a href=\"companyNews.html\">更多>>></a></li> "+
+	"		              <li><a href='" + PATH_NEWS_INDEX + "' target=\"_blank\"><img height=\"140\" width=\"259\" src=\"" + PUBLIC + "/Resources/Images/Front/newImages/gh_memu_1.jpg\"></a></li> "+
+	"						    	<li class=\"title\"><a href='" + PATH_NEWS_INDEX + "'>更多>>></a></li> "+
 			          		
 	"		          </ul> "+
 		                    	       

@@ -2,9 +2,9 @@
 
 namespace Home\Controller\Courses;
 
-use Think\Controller;
+use Home\Controller\Base\BaseController;
 
-class CoursesController extends Controller {
+class CoursesController extends BaseController {
 	
 	/**
 	 * 安卓培训

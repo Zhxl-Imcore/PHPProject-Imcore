@@ -2,9 +2,9 @@
 
 namespace Home\Controller\Study;
 
-use Think\Controller;
+use Home\Controller\Base\BaseController;
 
-class StudyController extends Controller {
+class StudyController extends BaseController {
 	
 	/**
 	 * 学员天地

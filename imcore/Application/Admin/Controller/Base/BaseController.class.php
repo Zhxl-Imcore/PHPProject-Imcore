@@ -11,9 +11,9 @@ class BaseController extends Controller {
 	protected $pageItems;
 	
 	public function _initialize(){
-		if(!session('?name') || !session('?account')){
+		if(!session('?name') || !session('?account') || !session('?uid')){
 			header('Content-Type: text/html;Charset=UTF-8');
-			redirect(U('Admin/Authorize/Authorize/index'),2,'你还未登录，或者登录超时！');
+			$this->redirect('Authenticate/Authenticate/index',NULL,2,'你还未登录，或者登录超时！');
 		}
 		
 		//分页数据

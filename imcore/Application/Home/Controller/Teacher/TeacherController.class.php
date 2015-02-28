@@ -2,14 +2,14 @@
 
 namespace Home\Controller\Teacher;
 
-use Think\Controller;
+use Home\Controller\Base\BaseController;
 
 /**
  * 讲师团队
  * @author zhxl
  *
  */
-class TeacherController extends Controller {
+class TeacherController extends BaseController {
 	
     /**
      * 讲师团队列表

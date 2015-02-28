@@ -27,6 +27,61 @@
 		<script type="text/javascript">
 			var PUBLIC = "/Public";
 			
+			/** 首页 **/
+			var PATH_INDEX = '<?php echo U("/Index/Index/index");?>';
+			/** 工程中心优势 **/
+			var PATH_ENGINEERING_CENTER_SUPERIORITY = '<?php echo U("EngineeringCenter/EngineeringCenter/superiority");?>';
+			/** 工程中心五部曲 **/
+			var PATH_ENGINEERING_CENTER_FIVESTEP = '<?php echo U("EngineeringCenter/EngineeringCenter/fiveStep");?>';
+			/** 产品与解决方案 **/
+			var PATH_ENGINEERING_CENTER_PRODUCTSOLUTION = '<?php echo U("EngineeringCenter/EngineeringCenter/productSolution");?>';
+			/** 三五互联 **/
+			var PATH_ENGINEERING_CENTER_SANWUPROJECT = '<?php echo U("EngineeringCenter/EngineeringCenter/sanWuProject");?>';
+			/** 海西晨报 **/
+			var PATH_ENGINEERING_CENTER_CHENBAOPROJECT = '<?php echo U("EngineeringCenter/EngineeringCenter/chenBaoProject");?>';
+			/** 建发房产 **/
+			var PATH_ENGINEERING_CENTER_JIANFAPROJECT = '<?php echo U("EngineeringCenter/EngineeringCenter/jianfaProject");?>';
+			/**Android培训**/
+			var PATH_COURSES_ANDROIDCOURSE = '<?php echo U("Courses/Courses/androidCourse");?>';
+			/**iOS培训**/
+			var PATH_COURSES_IOSCOURSE = '<?php echo U("Courses/Courses/iOSCourse");?>';
+			/**PHP培训**/
+			var PATH_COURSES_PHPCOURSE = '<?php echo U("Courses/Courses/phpCourse");?>';
+			/** 赴美工程师 **/
+			var PATH_COURSES_USAENGINEERCOURSE = '<?php echo U("Courses/Courses/usaEngineerCourse");?>';
+			/** 项目介绍 **/
+			var PATH_COURSES_USAPROJECTINTRO = '<?php echo U("Courses/Courses/usaProjectIntro");?>';
+			/** 项目流程 **/
+			var PATH_COURSES_USAPROJECTPROCESS = '<?php echo U("Courses/Courses/usaProjectProcess");?>';
+			/** 常见问题 **/
+			var PATH_COURSES_USAPROJECTPROBLEM = '<?php echo U("Courses/Courses/usaProjectProblem");?>';
+			/** 学员天地 **/
+			var PATH_STUDY_INDEX = '<?php echo U("Study/Study/index");?>';
+			/** 学习环境 **/
+			var PATH_STUDY_STUDYENVIROMENT = '<?php echo U("Study/Study/studyEnviroment");?>';
+			/** 学员心得 **/
+			var PATH_STUDY_STUDENTFEELING = '<?php echo U("Study/Study/studentFeeling");?>';
+			/** 学员作品 **/
+			var PATH_STUDY_STUDENTPROJECT = '<?php echo U("Study/Study/studentProject");?>';
+			/** 就业资讯 **/
+			var PATH_STUDY_JOBINFO = '<?php echo U("Study/Study/jobInfo");?>';
+			/** 讲师团队 **/
+			var PATH_STUDY_INDEX = '<?php echo U("Teacher/Teacher/index");?>';
+			/** 关于果核 **/
+			var PATH_ABOUT_ABOUTUS = '<?php echo U("About/About/aboutUs");?>';
+			/** 果核秘籍 **/
+			var PATH_ABOUT_ABOUTSCRET = '<?php echo U("About/About/aboutScret");?>';
+			/** 联系方式 **/
+			var PATH_ABOUT_CONTACTUS = '<?php echo U("About/About/contactUs");?>';
+			/** 果核动态 **/
+			var PATH_NEWS_INDEX = '<?php echo U("News/News/index");?>';
+			
+			/**
+				果核动态连接
+			**/
+			var TOP_NAV_LINKS_NEWS = '<?php echo ($newsTopNavLink); ?>';
+			
+			
 			$().ready(function() {
 				$('#slideshow').slide({autoplay: false, duration: 5000, showSlideNumber: true});
 			});
@@ -74,16 +129,11 @@
 					<div class="companyNewsBanner"></div>
 					<p class="contentTitle font12 pl10"><a href="index.html" class="bold">首页</a> &gt; 果核动态</p>						
 					<ul class="companyNews">
-						<li><a href="companyContentNews.html?id=10" target="_blank">果核科技GP01班开班仪式隆重举行</a></li>
-						<li><a href="companyContentNews.html?id=9" target="_blank">果核科技为闽江学院软件学院提供“移动大兵”训练营</a></li>
-						<li><a href="companyContentNews.html?id=8" target="_blank">果核科技为厦门理工学院提供“移动大兵”训练营</a></li>
-						<li><a href="companyContentNews.html?id=7" target="_blank">泉州师范学院与果核科技合作培养安卓软件开发工程师</a></li>
-						<li><a href="companyContentNews.html?id=6" target="_blank">果核再添猛将，工程中心如虎添翼</a></li>
-						<li><a href="companyContentNews.html?id=1" target="_blank">果核工程中心正式成立</a></li>
-						<li><a href="companyContentNews.html?id=2" target="_blank">果核又将为”移动大兵“提供训练营！</a></li>
-						<li><a href="companyContentNews.html?id=3" target="_blank">果核君加入“BizSpark”啦，正版当道，盗版微软一边去！</a></li>
-						<li><a href="companyContentNews.html?id=5" target="_blank">从果核毕业就能就业</a></li>
-						<li><a href="companyContentNews.html?id=4" target="_blank">果核学员学以致用，开发专属手机应用取悦女生</a></li>
+						<?php if(is_array($records)): $index = 0; $__LIST__ = $records;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$news): $mod = ($index % 2 );++$index;?><li>
+								<a href='<?php echo U("detail",array("id"=>$news["id"]));?>' target="_blank">
+									<?php echo ($news["title"]); ?>
+								</a>
+							</li><?php endforeach; endif; else: echo "" ;endif; ?>
 					</ul>					
 					
 				</div>

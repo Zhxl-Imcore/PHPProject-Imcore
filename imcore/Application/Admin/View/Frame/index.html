@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>果核网站-后台管理系统</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <!-- 导入Extjs样式 -->
+        <css href="__PUBLIC__/Resources/Js/ExtJS/resources/css/ext-all.css" />
+        <css href="__PUBLIC__/Resources/Css/Icon.css" />
+        <css href="__PUBLIC__/Resources/Css/Style.css" />
+        
+        <!-- 导入Extjs脚本 -->
+        <js href="__PUBLIC__/Resources/Js/ExtJS/bootstrap.js"/>
+        <js href="__PUBLIC__/Resources/Js/ExtJS/ext-lang-zh_CN.js"/>
+        
+        <include file='Frame:JSVars' />
+        
+        <script type="text/javascript">
+      		//提示信息
+        	Ext.QuickTips.init();
+      		
+      		//开启动态加载
+        	Ext.Loader.setConfig({
+        		enabled:true,
+        		paths: {
+        			'Ext.ux.combo': '__PUBLIC__/Resources/Js/ExtJS/ux/combo',
+        			'Ext.ux.window': '__PUBLIC__/Resources/Js/ExtJS/ux/window'
+        		}
+        	});
+        </script>
+        
+        <!-- 导入自己写的JS入口文件 -->
+        <js href="__PUBLIC__/Pages/Admin/init.js"/>
+		
+	</head>
+	<body>
+		
+	</body>
+	
+</html>

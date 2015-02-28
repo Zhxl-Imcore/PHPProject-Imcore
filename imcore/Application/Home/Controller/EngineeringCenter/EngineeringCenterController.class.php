@@ -1,12 +1,12 @@
 <?php
 namespace Home\Controller\EngineeringCenter;
 
-use Think\Controller;
+use Home\Controller\Base\BaseController;
 
 /*
  * 工程中心
  */
-class EngineeringCenterController extends Controller {
+class EngineeringCenterController extends BaseController {
 	
     /**
      * 工程中心优势

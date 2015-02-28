@@ -21,12 +21,10 @@ define('APP_DEBUG',True);
 define('APP_PATH','./Application/');
 
 //设置入口文件对应的模块
-$_GET['m'] = 'Admin';
+define('BIND_MODULE','Admin');
 
 //设置入口文件对应的控制器
 #$_GET['c'] = '\Admin\Main\Index';
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
-
-// 亲^_^ 后面不需要任何代码了 就是如此简单

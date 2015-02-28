@@ -1,10 +1,4 @@
 Ext.onReady(function(){
-    
-    Ext.Loader.setConfig({enabled:true});
-    
-    //提示信息
-    Ext.QuickTips.init();
-    
     Ext.application({
         requires: ['Ext.container.Viewport'],
         name: 'admin',
@@ -13,12 +7,12 @@ Ext.onReady(function(){
             Ext.create('Ext.container.Viewport',{
                 layout: 'fit',
                 items: [{
-                    xtype: 'mainview'
+                    xtype: 'frameview'
                 }]
             });
         },
         controllers: [
-            'admin.index.controller.MainController'
+            'admin.frame.controller.FrameController'
         ]
     });
 	
