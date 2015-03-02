@@ -2,13 +2,14 @@
 namespace Home\Model;
 
 use Think\Model;
+use Think\Model\RelationModel;
 
 /**
  * 新闻模块
  * @author zhxl
  *
  */
-class NewsModel extends Model {
+class NewsModel extends RelationModel {
 	
 	/**
 	 * 表字段
@@ -24,12 +25,6 @@ class NewsModel extends Model {
 		'is_stick',
 		'status'
 	);
-
-
-
-
-
-
 
 }
 

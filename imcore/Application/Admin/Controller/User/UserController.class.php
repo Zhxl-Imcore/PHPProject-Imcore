@@ -16,7 +16,7 @@ class UserController extends BaseController {
 	public function queryAction(){
 		$userModels = D('User');
 		
-		$result['datas'] = $userModels->page($this->pageNumber,$this->pageSize)->select();
+		$result['datas'] = $userModels->page($this->pageIndex,$this->pageSize)->select();
 		$result['total'] = $userModels->count();
 		$result['success'] = true;
 		

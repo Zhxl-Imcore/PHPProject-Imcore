@@ -7,32 +7,38 @@ Ext.define('admin.frame.view.FrameViewWest',{
     layout: 'accordion',
     items: [{
         xtype: 'treepanel',
-        title: '果核动态管理',
+        title: '内容管理',
         rootVisible: false,
         root: {
             children: [{
                 text: '果核动态',
                 leaf: true,
-                id: 'News-Query'
+                iconCls: 'New',
+                itemId: 'News-Query'
+            },{
+            	text: '讲师团队',
+            	leaf: true,
+            	iconCls: 'User',
+            	itemId: 'Teacher-Query'
             }]
         }
     },{
         xtype: 'treepanel',
-        title: '用户管理',
+        title: '系统管理',
         iconCls: 'Group',
         rootVisible: false,
         root: {
             children: [{
-                text: '用户信息',
+                text: '用户管理',
                 iconCls: 'User',
                 leaf: true,
-                id: 'User-Query'
-            },{
+                itemId: 'User-Query'
+            }/*,{
                 text: '权限管理',
                 iconCls: 'Usergreen',
                 leaf: true,
-                id: 'OrgMgr-Role'
-            }/*,{
+                ItemId: 'OrgMgr-Role'
+            },{
                 text: '权限管理',
                 iconCls: 'Tux',
                 leaf: true,

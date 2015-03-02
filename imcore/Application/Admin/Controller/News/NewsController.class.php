@@ -19,7 +19,7 @@ class NewsController extends BaseController {
 	public function queryAction(){
 		$newsModel = D('News');
 		
-		$result['datas'] = $newsModel->page($this->pageNumber,$this->pageSize)->select();
+		$result['datas'] = $newsModel->relation(TRUE)->order(array('id'=>'desc'))->page($this->pageIndex,$this->pageSize)->select();
 		$result['total'] = $newsModel->count();
 		$result['success'] = true;
 		

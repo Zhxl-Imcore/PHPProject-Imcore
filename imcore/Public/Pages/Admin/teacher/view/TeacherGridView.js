@@ -1,20 +1,21 @@
 /**
- * 果核动态列表
+ * 讲师管理界面
  */
-Ext.define('admin.news.view.NewsGridView',{
+Ext.define('admin.teacher.view.TeacherGridView',{
 	extend: 'Ext.grid.Panel',
-	alias: 'widget.newsgridview',
+	alias: 'widget.teachergridview',
 	
-	initComponent:function(){
+	initComponent: function(){
+		
 		//数据源
-    	var newsGridViewStore = Ext.create('admin.news.store.NewsGridViewStore');
+    	var teacherGridViewStore = Ext.create('admin.teacher.store.TeacherGridViewStore');
 		
 		Ext.apply(this,{
-			title: '果核动态',
-		    iconCls: 'New',
+			title: '讲师团队',
+		    iconCls: 'User',
 		    forceFit: true,
 		    closable: true,
-		    store: newsGridViewStore,
+		    store: teacherGridViewStore,
 		    viewConfig: {
 		        //在表格中显示斑马线
 		        stripeRows: true,
@@ -25,17 +26,21 @@ Ext.define('admin.news.view.NewsGridView',{
 		        dock: 'top',
 		        xtype: 'toolbar',
 		        items: [{
-		            text: '新建动态',
+		        	text: '查看讲师',
+		        	iconCls: 'Bulletget',
+		        	action: 'Teacher-readTeacher'
+		        },{
+		            text: '新建讲师',
 		            iconCls: 'Bulletadd',
-		            action: 'News-createNews'
+		            action: 'Teacher-createTeacher'
 		        },{
-		            text: '编辑动态',
+		            text: '编辑讲师',
 		            iconCls: 'Bulletedit',
-		            action: 'News-updateNews'
+		            action: 'Teacher-updateTeacher'
 		        },{
-		            text: '删除动态',
+		            text: '删除讲师',
 		            iconCls: 'Bulletdelete',
-		            action: 'News-deleteNews'
+		            action: 'Teacher-deleteTeacher'
 		        }/*,{
 		            xtype: 'tbspacer',
 		            width: 100
@@ -54,7 +59,7 @@ Ext.define('admin.news.view.NewsGridView',{
 		    },{
 		    	dock: 'bottom',
 		    	xtype: 'pagingtoolbar',
-		    	store: newsGridViewStore,
+		    	store: teacherGridViewStore,
 	            displayInfo: true,
 	            displayMsg: '显示第 {0} 条到 {1} 条记录，一共 {2} 条',
 	            emptyMsg: '没有数据'
@@ -64,14 +69,27 @@ Ext.define('admin.news.view.NewsGridView',{
 		    	xtype: 'rownumberer',
 		        text: '编号',
 		        sortable: false,
-		        width: 40,
+		        width: 60,
 		        menuDisabled: true
 		    },{
-		        text: '标题',
+		        text: '讲师称谓',
 		        dataIndex: 'title',
 		        sortable: false,
-		        width: 200,
+		        width: 100,
 		        menuDisabled: true
+		    },{
+		        text: '讲师职位',
+		        dataIndex: 'job',
+		        sortable: false,
+		        menuDisabled: true
+		    },{
+		        text: '发布状态',
+		        dataIndex: 'status',
+		        sortable: false,
+		        menuDisabled: true,
+		        renderer: function(value){
+		        	return value == 1? '已发布' : '未发布';
+		        }
 		    },{
 		        text: '发布人',
 		        dataIndex: 'user.account',
@@ -79,35 +97,19 @@ Ext.define('admin.news.view.NewsGridView',{
 		        menuDisabled: true
 		    },{
 		        text: '发布时间',
-		        dataIndex: 'publish_time',
+		        dataIndex: 'create_time',
 		        sortable: false,
 		        menuDisabled: true,
-		        renderer: Ext.util.Format.dateRenderer('Y-m-d')
+		        renderer: Ext.util.Format.dateRenderer('Y-m-d H:i:s')
 		    },{
-		    	text: '是否置顶',
-		    	dataIndex: 'is_stick',
-		    	sortable: false,
-		    	menuDisabled: true,
-		    	renderer: function(value, cellmeta, record, rowIndex, columnIndex, store){
-		    		return value == 1? '是' : '否';
-		    	}
-		    },{
-		        text: '状态',
-		        dataIndex: 'status',
+		    	text: '更新时间',
+		        dataIndex: 'update_time',
 		        sortable: false,
 		        menuDisabled: true,
-		        renderer: function(value){
-		        	return value == 1? '启用' : '禁用';
-		        }
-		    },{
-		        text: '内容',
-		        dataIndex: 'content',
-		        sortable: false,
-		        menuDisabled: true
+		        renderer: Ext.util.Format.dateRenderer('Y-m-d H:i:s')
 		    }]
 		});
-	
-		//这里是有先后调用的顺序的
-    	admin.news.view.NewsGridView.superclass.initComponent.call(this);
+		
+		admin.teacher.view.TeacherGridView.superclass.initComponent.call(this);
 	}
 });

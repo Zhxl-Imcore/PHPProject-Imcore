@@ -202,7 +202,7 @@ Ext.define('admin.news.controller.NewsController',{
 		            				['是','1'],
 		            				['否','0']
 		            			],
-		            			defaultItemIndex: 0 
+		            			defaultItemValue: '1' 
 	            			}),
 	            		{
 	            			xtype: 'radiogroup',
@@ -436,7 +436,7 @@ Ext.define('admin.news.controller.NewsController',{
 		            				['是','1'],
 		            				['否','0']
 		            			],
-		            			defaultItemIndex: 0 
+		            			defaultItemValue: '1'
 	            			}),
 	            		{
 	            			xtype: 'radiogroup',

@@ -3,7 +3,7 @@ return array(
 	/**
 	 * 页面调试
 	 */
-	'SHOW_PAGE_TRACE' => TRUE,
+	'SHOW_PAGE_TRACE' => FALSE,
 	
     /**
      * URL伪静态后缀设置(自动生成时为空)

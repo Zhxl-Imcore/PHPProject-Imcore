@@ -19,7 +19,7 @@ class NewsController extends BaseController {
     	
     	$where['status'] = array('eq',1);
     	$records = $newsModel->where($where)->order(array('publish_time'=>'DESC'))->select();
-    	
+   
     	$this->assign('records',$records);
     	$this->display('News:index');
     }

@@ -25,7 +25,7 @@ Ext.define('admin.frame.controller.FrameController',{
      * 左侧菜单点击
      */
     onWestTreePanelItemClick: function(view,record,item,index){
-        var westTreePanelItemId = record.data.id;
+        var westTreePanelItemId = record.raw.itemId;
         if('User-Query' == westTreePanelItemId){
             this.showOrgMgrUserTabPanel();
         }else if('OrgMgr-Role' == westTreePanelItemId){
@@ -39,6 +39,13 @@ Ext.define('admin.frame.controller.FrameController',{
          */
         else if('News-Query' == westTreePanelItemId){
         	this.showNewsTabPanel();
+        }
+        
+        /**
+         * 讲师团队
+         */
+        else if('Teacher-Query' == westTreePanelItemId){
+        	this.showTeacherTabPanel();
         }
     },
     
@@ -88,6 +95,21 @@ Ext.define('admin.frame.controller.FrameController',{
     initNewsController: function(){
     	var newsController = this.application.getController('admin.news.controller.NewsController');
     	newsController.initViews();
+    },
+    
+     /**
+     * 显示讲师团队管理面板
+     */
+    showTeacherTabPanel: function(){
+    	//引入js脚本
+    	Ext.require('admin.teacher.controller.TeacherController',this.initTeacherController,this);
+    },
+    
+    /**
+     * 实例化admin.teacher.controller.TeacherController
+     */
+    initTeacherController: function(){
+    	this.application.getController('admin.teacher.controller.TeacherController').initViews();
     },
     
     /**

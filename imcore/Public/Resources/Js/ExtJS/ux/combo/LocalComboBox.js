@@ -9,7 +9,7 @@ Ext.define('Ext.ux.combo.LocalComboBox',{
 	 * 自定义的成员
 	 */
 	textValueItems: 'undefined',
-	defaultItemIndex: 'undefined',
+	defaultItemValue: 'undefined',
 	
 	initComponent: function(){
 		var self = this;
@@ -21,14 +21,8 @@ Ext.define('Ext.ux.combo.LocalComboBox',{
 				data: self.textValueItems
 			});
 			
-			//如果设置了默认项，则设置默认值
-			if(self.defaultItemIndex != 'undefined'){
-				self.listeners = {
-					//渲染之后，显示之前
-			 		beforeshow: function(combo){
-			 			combo.select(store.getAt(self.defaultItemIndex));
-			 		}
-				};
+			if(self.defaultItemValue != 'undefined'){
+				self.value = self.defaultItemValue;
 			}
 			
 			Ext.apply(self,{
@@ -41,10 +35,11 @@ Ext.define('Ext.ux.combo.LocalComboBox',{
 				store: store,
 				displayField: 'text',
 	            valueField: 'value'
+	            //value: self.defaultItemIndex
 			});
 			
 		}
 		
-		self.callParent(arguments);
+		Ext.ux.combo.LocalComboBox.superclass.initComponent.call(this);
 	} 
 });

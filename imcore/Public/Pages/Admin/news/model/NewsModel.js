@@ -16,7 +16,7 @@ Ext.define('admin.news.model.NewsModel',{
     	name: 'image_ids',
     	type: 'string'
     },{
-    	name: 'publisher',
+    	name: 'user.account',
     	type: 'string'
     },{
         name: 'publish_time',
