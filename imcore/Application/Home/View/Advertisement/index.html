@@ -1,0 +1,515 @@
+<{//广告页面}>
+<extend name="Common/Base" />
+
+
+<block name='Main'>
+	<div class="main">
+		<div class="wrap">
+			<div class="productBanner relative">
+				<div id="focusBannerPic" class="focusBannerPic">
+					<ul>
+						<volist name='records' id='advSlideShow' key='index' mod='2'>
+							<li>
+								<a href="javascript:void(0);">
+									<img src="<{$advSlideShow['photo_path']}>" width='960' height='325'/>
+								</a>
+							</li>  
+						</volist>    
+					</ul>
+				</div>
+				
+				<ul id="controlNav" class="controlNav absolute">
+					<volist name='records' id='advSlideShow' key='index' mod='2'>
+						<li <eq name='index' value='1'>class="current"</eq>>
+							<a href="javascript:void(0);"></a>
+						</li>
+					</volist>
+				</ul>
+			</div>
+			
+			<div class="talentWrap">
+				<dl class="talentList dottedLine clearfix">
+					<dt class="dottedLine">
+						<p class="talentListTop">就业信息</p>
+					</dt>
+				</dl>
+				
+				<dl class="talentList dottedLine clearfix">
+					<br/>
+					<div class="employStudentMessage">
+						<div class="rollBox scrollcon mt20">
+              				<div id="leftDir" class="LeftBotton"> </div>
+              				<div id="TalentStu" class="Cont">
+              					<div class="ScrCont">
+                					<div id="TalentStu1">
+                						
+					                	<div class="talentbox">
+					                		<div class="talentboxIn">
+					              				<div class="left p10">
+						                  			<a class="imgBorder" target="_blank" href="employStudentFeeling.html">
+						                  				<img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student1.jpg" alt="林*">
+						                  			</a>
+												</div>
+												<div class="p10">
+						                  			<p class="mt4">姓名: 李*</p>
+						                  			<p class="mt4">就职企业: 舜亚</p>
+						                  			<p class="mt4">就职岗位: Android工程师</p>
+						                  			<p class="mt4">就职薪资: 5000元/月</p>
+												</div>
+					                		</div>
+					                	</div>
+					                	
+                						<div class="talentbox">
+					                		<div class="talentboxIn">
+					              				<div class="left p10">
+					                  				<a class="imgBorder" target="_blank" href="employStudentFeeling.html">
+					                  					<img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/yequanxin.jpg" alt="叶*鑫">
+					                  				</a>
+												</div>
+												<div class="p10">
+						                  			<p class="mt4">姓名: 叶*鑫</p>
+						                  			<p class="mt4">就职企业: 厦门米雀</p>
+						                  			<p class="mt4">就职岗位: Android工程师</p>
+						                  			<p class="mt4">就职薪资: 4000元/月</p>
+												</div>
+					                		</div>
+                						</div>
+                						
+					                	<div class="talentbox">
+					                		<div class="talentboxIn">
+					                			<div class="left p10">
+					                				<a class="imgBorder" target="_blank" href="employStudentFeeling.html">
+					                					<img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student2.jpg" alt="赖*瀚">
+					                				</a>
+					                    		</div>
+					                    		<div class="p10">
+						                        	<p class="mt4">姓名: 赖*瀚</p>
+						                  			<p class="mt4">就职企业: 自己创业</p>
+						                  			<p class="mt4">就职岗位: Android工程师</p>
+					                      		</div>
+					                		</div>
+					                	</div>
+					                	
+					                	<div class="talentbox">
+					                		<div class="talentboxIn">
+					                			<div class="left p10">
+					                				<a class="imgBorder" target="_blank" href="employStudentFeeling.html">
+					                					<img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student3.jpg" alt="陈*辉">
+					                				</a>
+					                    		</div>
+					                    		<div class="p10">
+						                        	<p class="mt4">姓名: 陈*辉</p>
+						                  			<p class="mt4">就职企业: 4399</p>
+						                  			<p class="mt4">就职岗位: Android工程师</p>
+						                  			<p class="mt4">就职薪资: 5000元/月</p>
+					                      		</div>
+					                		</div><!--talentboxIn-->
+					                	</div>
+					                	
+                	<div class="talentbox">
+                		<div class="talentboxIn">
+                			<div class="left p10">
+                				<a class="imgBorder" target="_blank" href="employStudentFeeling.html"><img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student4.jpg" alt="郑*忠"></a>
+                    	</div>
+                    	<div class="p10">
+                        <p class="mt4">姓名: 郑*忠</p>
+                  			<p class="mt4">就职企业: 铂信动漫</p>
+                  			<p class="mt4">就职岗位: Android工程师</p>
+                  			<p class="mt4">就职薪资: 4500元/月</p>
+                      </div>
+                		</div><!--talentboxIn-->                    		
+                	</div>
+                	<div class="talentbox">
+                		<div class="talentboxIn">
+                			<div class="left p10">
+                				<a class="imgBorder" target="_blank" href="employStudentFeeling.html"><img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student5.jpg" alt="吴*福"></a>
+                    	</div>
+                    	<div class="p10">
+                        <p class="mt4">姓名: 吴*福</p>
+                  			<p class="mt4">就职企业: 铂信动漫</p>
+                  			<p class="mt4">就职岗位: Android工程师</p>
+                  			<p class="mt4">就职薪资: 4500元/月</p>
+                      </div>
+                		</div><!--talentboxIn-->
+                	</div>
+                	<div class="talentbox">
+                		<div class="talentboxIn">
+                			<div class="left p10">
+                				<a class="imgBorder" target="_blank" href="employStudentFeeling.html"><img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student6.jpg" alt="陈*宏"></a>
+                    	</div>
+                    	<div class="p10">
+                        <p class="mt4">姓名: 陈*宏</p>
+                  			<p class="mt4">就职企业: 小鱼网</p>
+                  			<p class="mt4">就职岗位: Android工程师</p>
+                  			<p class="mt4">就职薪资: 4000元/月</p>
+                      </div>
+                		</div>
+                	</div>
+                	<div class="talentbox">
+                		<div class="talentboxIn">
+                			<div class="left p10">
+                				<a class="imgBorder" target="_blank" href="employStudentFeeling.html"><img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student8.jpg" alt="肖*鑫"></a>
+                    	</div>
+                    	<div class="p10">
+                        <p class="mt4">姓名: 肖*鑫</p>
+                  			<p class="mt4">就职企业: 锐骐</p>
+                  			<p class="mt4">就职岗位: Android工程师</p>
+                  			<p class="mt4">就职薪资: 4000元/月</p>
+                      </div>                			
+                		</div>
+                	</div>
+                	<div class="talentbox">
+                		<div class="talentboxIn">
+                			<div class="left p10">
+                				<a class="imgBorder" target="_blank" href="employStudentFeeling.html"><img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student9.jpg" alt="陈*源"></a>
+                    	</div>
+                    	<div class="p10">
+                        <p class="mt4">姓名: 陈*源</p>
+                  			<p class="mt4">就职企业: 锐骐</p>
+                  			<p class="mt4">就职岗位: Android工程师</p>
+                  			<p class="mt4">就职薪资: 4000元/月</p>
+                      </div>  
+                		</div>
+                	</div>
+                	<div class="talentbox">
+                		<div class="talentboxIn">
+                			<div class="left p10">
+                				<a class="imgBorder" target="_blank" href="employStudentFeeling.html"><img width="103" border="0" height="120" src="__PUBLIC__/Resources/Images/Front/student/student10.jpg" alt="张*鸿"></a>
+                    	</div>
+                    	<div class="p10">
+                        <p class="mt4">姓名: 张*鸿</p>
+                  			<p class="mt4">就职企业: 正航</p>
+                  			<p class="mt4">就职岗位: Android工程师</p>
+                  			<p class="mt4">就职薪资: 3500元/月</p>
+                      </div>
+                		</div>
+                	</div>
+                	
+                </div><!--TalentStu1-->
+                
+                <div id="TalentStu2"></div>
+             		</div>
+           		</div>
+              <div id="rightDir" class="RightBotton"> </div>
+            </div>
+       		</div>
+				</dl>
+				
+				<dl class="talentList dottedLine clearfix">
+					<dt class="dottedLine"><p class="talentListTop">学员心得</p></dt>
+				</dl>
+				<dl class="talentList dottedLine clearfix">
+					<dd>
+							<div id="activewin">
+								<div class="bg stubox1">									
+									<h3>福建师范大学&nbsp;-&nbsp;陈*涛</h3>		
+									<div class="cont">							
+										<p>2013.8月份还未从果核毕业已收到拓客6000，offer。感言：在果核学习了差不多四个月，感谢果核老师给我的帮助，让我终身受益。来果核学习是一个偶尔的机会，去果核试听了一次体验课，这就开始了我的果核学习之旅。</p>
+									</div>								
+								</div>
+								<div class="bg stubox2 ml40">									
+									<h3>厦门大学&nbsp;-&nbsp;张*城</h3>
+									<div class="cont">
+										<p>今天，我开始在维码科技智能家居部上班了。上班第一天感觉还不错，公司环境很好，坐落于依山傍海的珍珠园软件园，我的座位抬头就能看到大海和巍巍南太武山。而且就在我母校的隔壁，离我住的地方就三站。部门的同事也很热情很随和，耐心地跟我介绍项目，提供相关资料。
+										2013.03.18进入果核学习，2013.07.19日于果核毕业。两周内收到8家公司的面试通知，......
+										</p>
+									</div>
+								</div>
+								<div class="bg stubox3 ml40">									
+									<h3>东方学院&nbsp;-&nbsp;叶*鑫</h3>
+									<div class="cont">
+										<p>来果核培训之前，我还是一名大四的学生。转眼之间，我已在果核培训了4个月并已成功就业。四个多月前，记忆犹新的还是开班时黄老师对我的一席话，虽然讲得时间不是很长，但对于我们这些刚从学校即将步入工作岗位上的学生来说，简直是一剂良药。俗话说：“玉不琢，不成器。”刚从大学校门走出来的我们过惯了在大学中慵懒散慢的生活，自身个性也得到了充分地展现，但当我们走进果核......</p>
+									</div>
+								</div>
+								
+								<div class="links"><a href="employStudentFeeling.html" target="_blank">更多内容...</a></div>
+							</div>
+							
+					</dd>
+				</dl>
+				<dl class="talentList dottedLine clearfix">
+					<dt class="dottedLine">
+						<p class="talentListTop clearfix">百家企业委托招聘：
+							<span class="ml80">
+								<img class="" src="__PUBLIC__/Resources/Images/Front/coreSlogan.gif" alt="果核的学员不是在找好工作，而是在挑好工作！"  title="果核的学员不是在找好工作，而是在挑好工作！" />
+						  </span>
+						</p>
+					</dt>
+				</dl>
+                <!--
+				<dl class="talentList dottedLine clearfix">
+					<dd>
+						<img class="left" src="__PUBLIC__/Resources/Images/Front/talentLogo/company1.gif" alt="" />
+						<div class="noRound pl1em relative inviteIntro">
+							<p>网龙网络有限公司是中国网络游戏与移动互联网应用的开发商和运营商的领导者之一，总部位于中国福建省福州市。</p>
+						</div>
+						<p class="pt10"><strong>招聘职位：</strong>Android应用开发工程师（5人）</p>
+						<div><strong class="bold left">任职要求：</strong>
+							<div class="noRound">
+								<p>1. 大专以上学历</p>
+								<p>2. 熟悉Android或J2SE平台的应用开发，有实际项目开发经验</p>
+								<p>3. 智能手机发烧友优先</p>
+							</div>
+						</div>
+						<p class="pt10"><strong>薪资待遇：</strong>6000-8000/月&nbsp;&nbsp;&nbsp;&nbsp;五险一金等</p>
+						<a href="javascript:;" onClick="openChat(this);" lim_company="200133" class="talentHref absolute RightBottom">在线查询</a>
+					</dd>
+					<dd>
+						<img class="left" src="__PUBLIC__/Resources/Images/Front/talentLogo/company3.gif" alt="" />
+						<div class="noRound pl1em relative inviteIntro">
+							<p>国家创新型企业、国家国民经济动员信息化产业基地、国家科技成果重点推广计划项目依托单位。国内最具成长力的空间信息综合服务企业。</p>
+						</div>
+						<p class="pt10"><strong>招聘职位：</strong>Android开发人员 (10人) </p>
+						<div><strong class="bold left">任职要求：</strong>
+							<div class="noRound">
+								<p>1. 大学本科计算机及相关专业学历，熟悉android软件开发</p>
+								<p>2. 对嵌入式LINUX系统有一定了解</p>
+								<p>3. 有其他平台开发经验者优先</p>
+							</div>
+						</div>
+						<p class="pt10"><strong>薪资待遇：</strong>4000-6000/月&nbsp;&nbsp;&nbsp;&nbsp;五险一金等</p>
+						<a href="javascript:;" onClick="openChat(this);" lim_company="200133" class="talentHref absolute RightBottom">在线查询</a>
+					</dd>
+				
+				</dl>
+				<dl class="talentList dottedLine clearfix">
+					<dd>
+						<img class="left" src="__PUBLIC__/Resources/Images/Front/talentLogo/company5.gif" alt="" />
+						<div class="noRound pl1em relative inviteIntro">
+							<p>夏新科技有限公司自成立初始就致力于将最前沿的无线通信技术融合到时尚的手机产品中。其品牌价值曾位列“中国500最具价值品牌”排行榜前列。</p>
+						</div>
+						<p class="pt10"><strong>招聘职位：</strong>Android系统软件工程师 (2人)</p>
+						<div><strong class="bold left">任职要求：</strong>
+							<div class="noRound">
+								<p>1. 计算机、通讯工程、自动控制等相关专业</p>
+								<p>2. 有Java语言编程经验，熟悉Android应用框架</p>
+								<p>3. 熟悉Android应用框架;从事手机平台应运软件编程者优先考虑</p>
+							</div>
+						</div>
+						<p class="pt10"><strong>薪资待遇：</strong>6000-8000/月&nbsp;&nbsp;&nbsp;&nbsp;五险一金等</p>
+						<a href="javascript:;" onClick="openChat(this);" lim_company="200133" class="talentHref absolute RightBottom">在线查询</a>
+					</dd>
+					<dd>
+						<img class="left" src="__PUBLIC__/Resources/Images/Front/talentLogo/company6.gif" alt="" />
+						<div class="noRound pl1em relative inviteIntro">
+							<p>厦门铃盛软件为企业提供云计算为基础的商业电话系统，总部设于美国加利福尼亚州的硅谷。现已经超过250000家的公司在使用我们的服务，并且在迅速的增长。</p>
+						</div>
+						<p class="pt10"><strong>招聘职位：</strong>Android研发工程师 (若干) </p>
+						<div><strong class="bold left">任职要求：</strong>
+							<div class="noRound">
+								<p>1. 2年以上Android开发经验</p>
+								<p>2. 开发过带有良好的用户体验和性能的高质量Android应用系统</p>
+								<p>3. 熟知或在SIP或者VoIP协议和应用方面有经验</p>
+							</div>
+						</div>
+						<p class="pt10"><strong>薪资待遇：</strong>7500-10000/月&nbsp;&nbsp;&nbsp;&nbsp;项目奖金等</p>
+						<a href="javascript:;" onClick="openChat(this);" lim_company="200133" class="talentHref absolute RightBottom">在线查询</a>
+					</dd>
+                    </dl>
+                    -->
+                    <dl class="talentList dottedLine clearfix">
+					<dd>
+						<img class="left" src="__PUBLIC__/Resources/Images/Front/talentLogo/company7.gif" alt="" />
+						<div class="noRound pl1em relative inviteIntro">
+							<p>四三九九网络股份有限公司（4399游戏），是国内最早、最大的中文游戏平台。公司注册资金人民币3.69亿元，总部位于美丽的鹭岛——厦门，同时在北京和广州还设有分支机构。</p>
+						</div>
+						<p class="pt10"><strong>招聘职位：</strong>ios/iphone程序员（面向优秀应届生） (2人)</p>
+						<div><strong class="bold left">任职要求：</strong>
+							<div class="noRound">
+								<p>1. 对移动手机业务开发有较高的热情和兴趣</p>
+								<p>2. 熟悉Objective-c,熟悉Xcode开发环境</p>
+								<p>3. 建立并维护产品的开发文档</p>
+							</div>
+						</div>
+						<p class="pt10"><strong>薪资待遇：</strong>4000-6000/月&nbsp;&nbsp;&nbsp;&nbsp;五险一金等</p>
+						<a href="javascript:;" onClick="openChat(this);" lim_company="200133" class="talentHref absolute RightBottom">在线查询</a>
+					</dd>
+					<dd>
+						<img class="left" src="__PUBLIC__/Resources/Images/Front/talentLogo/company8.gif" alt="" />
+						<div class="noRound pl1em relative inviteIntro">
+							<p>厦门三五互联科技股份有限公司（股票简称：三五互联，股票代码：300051）于2010年2月11日在深圳证券交易所创业板成功上市，是中国第一家网络应用服务类的创业板上市公司。</p>
+						</div>
+						<p class="pt10"><strong>招聘职位：</strong>IOS开发工程师 （若干）</p>
+						<div><strong class="bold left">任职要求：</strong>
+							<div class="noRound">
+								<p>1. 计算机及相关专业</p>
+								<p>2. 扎实的C\C++基础，熟练掌握Objective-C语言，熟悉 Mac OS X，Xcode和iPhone SDK 开发环境</p>
+								<p>3. 与项目经理、测试人员、策划、发布工程师等协同工作，达成项目目标</p>
+							</div>
+						</div>
+						<p class="pt10"><strong>薪资待遇：</strong>5000-8000/月&nbsp;&nbsp;&nbsp;&nbsp;项目奖金等</p>
+						<a href="javascript:;" onClick="openChat(this);" lim_company="200133" class="talentHref absolute RightBottom">在线查询</a>
+					</dd>
+					
+				</dl>
+                 <dl class="talentList dottedLine clearfix">
+					<dd>
+						<img class="left" src="__PUBLIC__/Resources/Images/Front/talentLogo/company9.gif" alt="" />
+						<div class="noRound pl1em relative inviteIntro">
+							<p>福富软件公司已成为国家规划布局内的重点软件企业，国家软件出口龙头企业、电信行业领先的系统解决方案提供商、中小企业信息化应用有实力的服务商。</p>
+						</div>
+						<p class="pt10"><strong>招聘职位：</strong>IOS开发工程师 (2人) </p>
+						<div><strong class="bold left">任职要求：</strong>
+							<div class="noRound">
+								<p>1. 有半年以上iPhone系统或Mac软件开发经验。</p>
+								<p>2. 具备扎实的Objective-C、C/C++/Cocoa框架基础境</p>
+							</div>
+						</div>
+						<p class="pt10"><strong>薪资待遇：</strong>5000-7000/月&nbsp;&nbsp;&nbsp;&nbsp;五险一金等</p>
+						<a href="javascript:;" onClick="openChat(this);" lim_company="200133" class="talentHref absolute RightBottom">在线查询</a>
+					</dd>
+					<dd>
+						<img class="left" src="__PUBLIC__/Resources/Images/Front/talentLogo/company12.gif" alt="" />
+						<div class="noRound pl1em relative inviteIntro">
+							<p>北京千里千寻网络科技有限公司是一家致力于互联网产品设计，研发并自主运营的网络公司，我们以创新的视角及专业的服务，为用户带来全新的互联网产品和良好的使用体验。</p>
+						</div>
+						<p class="pt10"><strong>招聘职位：</strong>IOS手机开发程师 (3人)</p>
+						<div><strong class="bold left">任职要求：</strong>
+							<div class="noRound">
+								<p>1. 毕业于计算机或相关技术学科</p>
+								<p>2. 有2年iPhone平台界面开发和网络开发经验</p>
+								<p>3. 具有丰富的Objective C和Cocoa编程经验，有在App Store发布过软件的优先考虑</p>
+							</div>
+						</div>
+						<p class="pt10"><strong>薪资待遇：</strong>10000-20000/月&nbsp;&nbsp;&nbsp;&nbsp;项目奖金等</p>
+						<a href="javascript:;" onClick="openChat(this);" lim_company="200133" class="talentHref absolute RightBottom">在线查询</a>
+					</dd>
+					<dd>
+						<img src="__PUBLIC__/Resources/Images/Front/banner/AndroidTalent-06.jpg"/>
+					</dd>
+				</dl>
+					
+				
+				
+				<!--<img src="__PUBLIC__/Resources/Images/Front/DataGridPic.jpg" alt="Android和传统开发语言的发展与对比" />-->
+				<dl class="talentList dottedLine clearfix">
+					<dt class="head">果核学员作品</dt>
+					<dd>
+						<div class="probox">
+							<div class="content">
+								<img src="__PUBLIC__/Resources/Images/Front/studentWork/Diapers01.gif">
+								<p class="mt4">Diapers - 在线母婴用品</p>
+							</div>
+							<div class="content">
+								<img src="__PUBLIC__/Resources/Images/Front/studentWork/sq01.gif">
+								<p class="mt4">商圈 - 移动商务社交系统</p>
+							</div>
+							<div class="content">
+								<img src="__PUBLIC__/Resources/Images/Front/studentWork/tx01.gif">
+								<p class="mt4">天线 - 一款智能软件</p>
+							</div>
+							<div class="content">
+								<img src="__PUBLIC__/Resources/Images/Front/studentWork/jf02.gif">
+								<p class="mt4">建发房产手机报</p>
+							</div>
+							<div class="content">
+								<img src="__PUBLIC__/Resources/Images/Front/studentWork/ym01.gif">
+								<p class="mt4">芸茗茶叶</p>
+							</div>
+							<div class="content">
+								<img src="__PUBLIC__/Resources/Images/Front/studentWork/mf02.jpg">
+								<p class="mt4">美发 - 为美发行业服务的移动app</p>
+							</div>
+						</div>
+					</dd>
+				</dl>
+				
+				<div class="superiorityBox dottedLine">
+					<p><img src="__PUBLIC__/Resources/Images/Front/talentTitlesuperiority.gif" alt="果核优势" title="果核优势" /></p>
+					<div class="clearfix">
+						<p><img src="__PUBLIC__/Resources/Images/Front/banner/AndroidTalent-01.png" alt=""/></p>
+						<p class="mt10"><img src="__PUBLIC__/Resources/Images/Front/banner/AndroidTalent-02.png" alt=""/></p>
+						<p><img src="__PUBLIC__/Resources/Images/Front/banner/AndroidTalent-03.png" alt=""/></p>
+						<p class="mt10"><img src="__PUBLIC__/Resources/Images/Front/banner/AndroidTalent-04.png" alt=""/></p>
+						<p class="mt10"><img src="__PUBLIC__/Resources/Images/Front/banner/AndroidTalent-05.png" alt=""/></p>
+					</div>
+				</div>
+				<div class="talentContactBox font18">
+					<p><img src="__PUBLIC__/Resources/Images/Front/talentTitlelContact.gif" alt="联系我们" title="联系我们" /></p>
+					<div class="contactUs"><!-- class="talentOnline mt10"-->
+									<ul>
+										<li>郑老师</li>										
+										<li class="ml18"><a href="http://wpa.qq.com/msgrd?v=3&uin=1103231937 &site=qq&menu=yes" target="_blank" href="javascript:;" class="talentOnlineBtn left"></a></li>
+										<li>咨询电话：13163909893</li>
+									</ul>
+									<div class="clear"></div>
+									<ul>
+										<li>果核科技</li>
+										<li><a href="http://wpa.qq.com/msgrd?v=3&uin=1563461231&site=qq&menu=yes" target="_blank" class="talentOnlineBtn left"></a></li>
+										<li>咨询地址：软件园二期望海路55号B206室</li>
+									</ul>
+						
+					</div>
+<!-- 				
+					<div class="talentLeaveBox left">
+						<p>您也可以留下您的联系方式，我们会及时与您联系.</p>
+						<div class="pl1em">
+							<p>
+								<label for="">姓名<span class="required">*</span></label><input type="text" />
+							</p>
+							<p>
+								<label for="">QQ</label><input type="text" />
+							</p>
+							<p>
+								<label for="">联系电话<span class="required">*</span></label><input type="text" />
+							</p>
+							<p>
+								<label for="">E-mail</label><input type="text" />
+							</p>
+							<p>
+								<label for="">所在地区</label>
+								<select name="" id="">
+									<option value="">厦门</option>
+								</select>
+							</p>
+							<div class="clearfix">
+								<a href="javascript:;" class="talentHref right">提&nbsp;&nbsp;交</a>
+							</div>
+						</div>
+					</div>
+-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript"> 
+		var speed_3 = 18;
+		var direction="left";
+		var tab_3 = document.getElementById("TalentStu");
+		var tab1_3 = document.getElementById("TalentStu1");
+		var tab2_3 = document.getElementById("TalentStu2");
+		var leftDir = document.getElementById("leftDir");
+		var rightDir = document.getElementById("rightDir");
+		tab2_3.innerHTML = tab1_3.innerHTML;
+		function marquee_3(){
+			switch(direction){
+			case "left":
+				if(tab2_3.offsetWidth - tab_3.scrollLeft <= 0){
+				tab_3.scrollLeft -= tab1_3.offsetWidth;
+				}
+				else{
+				tab_3.scrollLeft++;
+				}
+				break;
+			case "right":
+				if(tab_3.scrollLeft <= 0){
+				tab_3.scrollLeft += tab2_3.offsetWidth;
+				}
+				else{
+				tab_3.scrollLeft--;
+				}
+				break;
+			}
+		}
+		function changeDirection(dir){
+			direction = dir;
+		}
+		var timer = setInterval(marquee_3,speed_3);
+		tab_3.onmouseover = function(){clearInterval(timer);};
+		tab_3.onmouseout = function(){timer = setInterval(marquee_3,speed_3);};
+		leftDir.onclick = function(){changeDirection("left");};
+		rightDir.onclick = function(){changeDirection("right");};
+	</script>
+
+</block>

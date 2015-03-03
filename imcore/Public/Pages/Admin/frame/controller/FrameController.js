@@ -47,6 +47,13 @@ Ext.define('admin.frame.controller.FrameController',{
         else if('Teacher-Query' == westTreePanelItemId){
         	this.showTeacherTabPanel();
         }
+        
+        /**
+         * 广告幻灯片
+         */
+        else if('Advs-SlideShow-Query' == westTreePanelItemId){
+        	this.showAdvsSlideShowTabPanel()
+        }
     },
     
     /**
@@ -67,6 +74,18 @@ Ext.define('admin.frame.controller.FrameController',{
                 });
             }
         });
+    },
+    
+    /**
+     * 广告页幻灯片
+     */
+    showAdvsSlideShowTabPanel: function(){
+    	var self = this;
+    	 //动态加载Controller
+        Ext.require('admin.advertisement.controller.AdvSlideShowController',function(){
+            var advSlideShowController = this.application.getController('admin.advertisement.controller.AdvSlideShowController');
+            advSlideShowController.initViews();
+        },self);
     },
     
     /**

@@ -24,6 +24,18 @@ Ext.define('admin.frame.view.FrameViewWest',{
         }
     },{
         xtype: 'treepanel',
+        title: '广告页管理',
+        rootVisible: false,
+        root: {
+            children: [{
+                text: '广告幻灯片',
+                leaf: true,
+                iconCls: 'New',
+                itemId: 'Advs-SlideShow-Query'
+            }]
+        }
+    },{
+        xtype: 'treepanel',
         title: '系统管理',
         iconCls: 'Group',
         rootVisible: false,
