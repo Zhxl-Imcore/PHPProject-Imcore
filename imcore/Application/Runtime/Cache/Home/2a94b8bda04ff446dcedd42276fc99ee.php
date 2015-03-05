@@ -127,12 +127,11 @@
     		<div class="productBanner relative">
           		<div id="focusBannerPic" class="focusBannerPic">
         			<ul>
-		              	<li><a href="AndroidFreeClass.html"><img src="/Public/Resources/Images/Front/banner/Android1.jpg" alt="" /></a></li>
 		              	<li><a href="javascript:;" onclick="openChat(this);" lim_company="200133"><img src="/Public/Resources/Images/Front/banner/banner22.jpg" alt="" /></a></li>
 		              	<li><a href="javascript:;" onclick="openChat(this);" lim_company="200133"><img src="/Public/Resources/Images/Front/banner/banner21.jpg" alt="" /></a></li>
 		              	<li><a href="javascript:;" onclick="openChat(this);" lim_company="200133"><img src="/Public/Resources/Images/Front/banner/Android2.jpg" alt="" /></a></li>
               		<!--<li><a href="topicCourse.html"><img src="Images/banner/topicCourse.jpg" alt="" /></a></li>-->
-              			<li><a href="AndroidTalent.html"><img src="/Public/Resources/Images/Front/banner/talent1.jpg" alt="" /></a></li>
+              			<li><a href="advertisement.html"><img src="/Public/Resources/Images/Front/banner/talent1.jpg" alt="" /></a></li>
               <!--
 						<li><a href="IosTalent.html"><img src="Images/banner/ios1.jpg" alt="" /></a></li>
 						<li><a href="customPrograms.html"><img src="Images/banner/Android3.jpg" alt="" /></a></li>
@@ -142,11 +141,10 @@
       			</div>
           
           		<ul id="controlNav" class="controlNav absolute" style="margin-left:250px;">
-        			<li class="current"><a href="javascript:;"></a></li>
-        			<li><a href="javascript:;"></a></li>
-        			<li><a href="javascript:;"></a></li>
-			        <li><a href="javascript:;"></a></li>
-			        <li><a href="javascript:;"></a></li>
+        			<li class="current"><a href="javascript:void(0);"></a></li>
+        			<li><a href="javascript:void(0);"></a></li>
+			        <li><a href="javascript:void(0);"></a></li>
+			        <li><a href="javascript:void(0);"></a></li>
       			</ul>
           		<!--<span class="bannerMark"></span>--> 
         	</div>

@@ -60,7 +60,6 @@ class App {
      * @return void
      */
     static public function exec() {
-    
         if(!preg_match('/^[A-Za-z](\/|\w)*$/',CONTROLLER_NAME)){ // 安全检测
             $module  =  false;
         }elseif(C('ACTION_BIND_CLASS')){
@@ -101,7 +100,6 @@ class App {
                 E(L('_CONTROLLER_NOT_EXIST_').':'.CONTROLLER_NAME);
             }
         }
-
         // 获取当前操作名 支持动态路由
         if(!isset($action)){
             $action    =   ACTION_NAME.C('ACTION_SUFFIX');  

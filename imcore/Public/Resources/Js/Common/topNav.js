@@ -85,7 +85,7 @@ var topMenu_newStyle = "" +
 	"				</div> "+
 	"			</li>  "+
 	"			<li is=\"menuindex\"> "+
-	"				<a iblk=\"讲师团队\" href=\"" + PATH_STUDY_INDEX + "\" class=\"media_center\"><span>讲师团队</span></a> "+
+	"				<a iblk=\"讲师团队\" href='teacher.html' class=\"media_center\"><span>讲师团队</span></a> "+
 	"			</li>"+
 
 

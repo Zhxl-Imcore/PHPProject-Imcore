@@ -28,7 +28,8 @@ class Route {
             $var    =   self::parseUrl($maps[$regx]);
             $_GET   =   array_merge($var, $_GET);
             return true;                
-        }        
+        }
+        
         // 动态路由处理
         $routes =   C('URL_ROUTE_RULES');
         if(!empty($routes)) {
@@ -97,6 +98,7 @@ class Route {
     private static function checkUrlMatch($regx,$rule) {
         $m1 = explode('/',$regx);
         $m2 = explode('/',$rule);
+        
         $var = array();         
         foreach ($m2 as $key=>$val){
             if(0 === strpos($val,'[:')){
@@ -149,7 +151,19 @@ class Route {
         if(isset($path)) {
             $var[C('VAR_ACTION')] = array_pop($path);
             if(!empty($path)) {
-                $var[C('VAR_CONTROLLER')] = array_pop($path);
+            	/**
+            	 * BUG修复，(根据控制器级数)多级控制器的路由配置问题
+            	 */
+            	$controllerPath = '';
+                for($i = 0; $i < C('CONTROLLER_LEVEL'); $i ++){
+                	$controllerPath = $controllerPath . '/' .array_pop($path);
+                }
+                
+                $var[C('VAR_CONTROLLER')] = substr($controllerPath, 1);
+                
+                /**
+                 * BUG修复结束
+                 */
             }
             if(!empty($path)) {
                 $var[C('VAR_MODULE')]  = array_pop($path);
@@ -232,6 +246,7 @@ class Route {
             }
             $_GET   =  array_merge($var,$_GET);
         }
+        
         return true;
     }
 

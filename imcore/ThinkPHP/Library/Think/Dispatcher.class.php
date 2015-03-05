@@ -33,7 +33,7 @@ class Dispatcher {
         }elseif(IS_CLI){ // CLI模式下 index.php module/controller/action/params/...
             $_SERVER['PATH_INFO'] = isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : '';
         }
-
+        
         // 开启子域名部署
         if(C('APP_SUB_DOMAIN_DEPLOY')) {
             $rules      = C('APP_SUB_DOMAIN_RULES');
@@ -93,6 +93,7 @@ class Dispatcher {
                 }
             }
         }
+        
         // 分析PATHINFO信息
         if(!isset($_SERVER['PATH_INFO'])) {
             $types   =  explode(',',C('URL_PATHINFO_FETCH'));
@@ -117,8 +118,10 @@ class Dispatcher {
             define('__EXT__','');
         }else{
             define('__INFO__',trim($_SERVER['PATH_INFO'],'/'));
+            
             // URL后缀
             define('__EXT__', strtolower(pathinfo($_SERVER['PATH_INFO'],PATHINFO_EXTENSION)));
+            
             $_SERVER['PATH_INFO'] = __INFO__;     
             if(!defined('BIND_MODULE') && (!C('URL_ROUTER_ON') || !Route::check())){
                 if (__INFO__ && C('MULTI_MODULE')){ // 获取模块名
@@ -143,6 +146,7 @@ class Dispatcher {
         if( MODULE_NAME && (defined('BIND_MODULE') || !in_array_case(MODULE_NAME,C('MODULE_DENY_LIST')) ) && is_dir(APP_PATH.MODULE_NAME)){
             // 定义当前模块路径
             define('MODULE_PATH', APP_PATH.MODULE_NAME.'/');
+            
             // 定义当前模块的模版缓存路径
             C('CACHE_PATH',CACHE_PATH.MODULE_NAME.'/');
             // 定义当前模块的日志目录
@@ -193,10 +197,12 @@ class Dispatcher {
 	    }
         // 模块URL地址
         $moduleName    =   defined('MODULE_ALIAS')? MODULE_ALIAS : MODULE_NAME;
+        
         define('__MODULE__',(defined('BIND_MODULE') || !C('MULTI_MODULE'))? __APP__ : __APP__.'/'.($urlCase ? strtolower($moduleName) : $moduleName));
-
-        if('' != $_SERVER['PATH_INFO'] && (!C('URL_ROUTER_ON') ||  !Route::check()) ){   // 检测路由规则 如果没有则按默认规则调度URL
-            Hook::listen('path_info');
+        
+        // 检测路由规则 如果没有则按默认规则调度URL
+        if('' != $_SERVER['PATH_INFO'] && (!C('URL_ROUTER_ON') ||  !Route::check()) ){  
+        	Hook::listen('path_info');
             // 检查禁止访问的URL后缀
             if(C('URL_DENY_SUFFIX') && preg_match('/\.('.trim(C('URL_DENY_SUFFIX'),'.').')$/i', $_SERVER['PATH_INFO'])){
                 send_http_status(404);
@@ -231,8 +237,10 @@ class Dispatcher {
             }
             $_GET   =  array_merge($var,$_GET);
         }
+        
         // 获取控制器的命名空间（路径）
         define('CONTROLLER_PATH',   self::getSpace($varAddon,$urlCase));
+        
         // 获取控制器和操作名
         define('CONTROLLER_NAME',   defined('BIND_CONTROLLER')? BIND_CONTROLLER : self::getController($varController,$urlCase));
         define('ACTION_NAME',       defined('BIND_ACTION')? BIND_ACTION : self::getAction($varAction,$urlCase));

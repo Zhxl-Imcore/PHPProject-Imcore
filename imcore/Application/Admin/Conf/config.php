@@ -35,5 +35,17 @@ return array(
 		'AUTH_RULE' => 't_auth_rule',         // 权限规则表
 		'AUTH_USER' => 't_user' //用户信息表
 	),
+		
+	/**
+	 * URL路由配置
+	 */
+	'DEFAULT_CONTROLLER' => 'Frame/Frame',
+	'DEFAULT_ACTION' => 'index',
+		
+	'URL_ROUTER_ON' => TRUE,
+	'URL_MAP_RULES' => array(
+		'index' => 'Frame/Frame/index',
+		'login' => 'Authenticate/Authenticate/index',
+	),
 
 );

@@ -4,7 +4,7 @@ return array(
     /**
      * 打开页面调试工具
      */
-    'SHOW_PAGE_TRACE' => FALSE,
+    'SHOW_PAGE_TRACE' => TRUE,
     
     /**
      * 模板文件后缀
@@ -57,4 +57,9 @@ return array(
     'DB_PWD' => 'root',
     'DB_PREFIX' => 't_',
     'DB_CHARSET' => 'utf8',
+		
+	/**
+	 * 前台关闭session
+	 */
+	'SESSION_AUTO_START' => FALSE,
 );
